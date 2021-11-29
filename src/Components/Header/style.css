@@ -1,0 +1,48 @@
+.ant-collapse-arrow {
+  display: none !important;
+}
+
+.ant-collapse-content-box {
+  background-color: rgb(153, 153, 153) !important;
+  padding: 0 !important;
+  border-radius: 4px;
+}
+
+.subType:hover {
+  border-bottom: 2px #28a745 solid;
+}
+
+.bgSideBar {
+  background-color: rgba(24, 24, 24, 0.438);
+}
+
+.sidebar-wrap {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background-color: #00000073;
+}
+/* 
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 996px) {
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        /* background: #fff; */
+/* position: fixed;
+        z-index: 99;
+
+        
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    } */
+/* }  */

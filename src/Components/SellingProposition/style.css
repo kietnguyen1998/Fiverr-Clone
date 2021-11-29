@@ -1,0 +1,34 @@
+.react-responsive-modal-modal {
+  padding: 0 !important;
+  width: 800px;
+  height: 450px;
+}
+
+@media screen and (max-width: 768px) {
+  .react-responsive-modal-container {
+    width: 100%;
+    height: 800px;
+    
+  }
+  .react-responsive-modal-modal{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    
+  }
+}
+@media screen and (max-width: 576px) {
+  .react-responsive-modal-container {
+    width: 420px;
+    height: 300px;
+    margin-top: 10rem;
+    
+  }
+  .react-responsive-modal-modal{
+    width: 420px;
+    height: 300px;
+    margin: 0;
+    
+  }
+  
+}

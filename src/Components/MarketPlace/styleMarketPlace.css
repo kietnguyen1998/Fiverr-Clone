@@ -1,0 +1,12 @@
+.underLine {
+    margin: 0 auto;
+    border-bottom: 2px solid #c5c6c9;
+    width: 20%;
+    transition: all .3s ease-in;
+}
+
+.image:hover .underLine {
+    transition: all .3s ease-in;
+    width: 30%;
+    border-color: #1dbf73;
+}

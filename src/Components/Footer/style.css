@@ -1,0 +1,19 @@
+.text-list ul li a {
+  color: #7a7d85;
+  font-size: 16px;
+}
+
+.text-list ul li a:hover {
+  border-bottom: 2px solid #7a7d85;
+  transition: 0.2;
+}
+
+.text-list ul li:hover p {
+  border-bottom: 1px solid #7a7d85;
+  transition: 0.2;
+}
+
+.text-list ul li a > p {
+  color: #b5b6ba;
+  font-size: 14px;
+}

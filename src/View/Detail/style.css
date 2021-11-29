@@ -1,0 +1,41 @@
+.ant-menu-submenu-title {
+    padding: 0 !important;
+  }
+  
+  .ant-menu-submenu-title:hover {
+    color: initial !important;
+  }
+  
+  .ant-menu-item {
+    padding-left: 0 !important;
+  }
+  
+  .ant-menu-item:hover {
+    color: initial !important;
+  }
+  
+  .ant-menu-inline {
+    border-right: none !important;
+    border-bottom: 1px solid #cecece !important;
+  }
+  
+  .ant-menu-submenu-title > .ant-menu-submenu-arrow:hover {
+    background-color: initial !important;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .ant-menu-inline {
+      border-bottom: none !important;
+    }
+    .ant-tabs-nav-wrap {
+      justify-content: center;
+      
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .borderDetail {
+      width: 65%;
+    }
+  }
+  
